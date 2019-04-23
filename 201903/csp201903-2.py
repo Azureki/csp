@@ -20,7 +20,7 @@ def is24(string):
         a = oprds.pop()
         oprds[-1] = optr(oprds[-1], a)
     # print(oprds, optrs)
-    return 'YES' if oprds[0] == 24 else 'NO'
+    return 'Yes' if oprds[0] == 24 else 'No'
         
 
 
